@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-style: normal!important;
+}
+html{
+font-size: 62.5%;
+}
+body{
+  background: url("https://www.walldevil.com/wallpapers/a80/6767-circuit.jpg");
+  font-family: 'Nunito', sans-serif;
+  font-size: 5.5em;
+  color: rgb(15, 56, 12);
+}
+#workspace{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#calcBox{
+  padding 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  width: 80vw;
+  margin-top:.2em;
+  margin-bottom:.5em;
+
+}
+#hdr{
+  font-family: 'Press Start 2P', cursive;
+  font-size:.5em;
+  width: 77vw;
+  text-align: left;
+  margin: auto;
+  margin-bottom: .5em;
+  margin-top: .5em;
+  padding: .1em;
+}
+#result{
+  width: 77vw;
+  margin: auto;
+  border: solid;
+  border-radius:.2em;
+  text-align: right;
+  background:rgb(190, 31, 198);
+  color: rgb(252, 211, 255);
+  padding:.5em;
+  border-color:rgb(31, 200, 199);
+}
+.button:hover{
+    background: rgb(252, 211, 255);
+   color:rgb(190, 31, 198);
+
+}
+.button{
+  padding: 3px;
+  background:rgba(190, 31, 198,.9);
+  color:rgb(252,211,255);
+  border: solid;
+  border-radius:.2em;
+  border-color:rgb(31, 200, 199);
+  display: flex;
+  align-items:center;
+  width:21%;
+  height:2em;
+  justify-content: center;
+  margin-top:.5em;
+  margin-bottom:.2em;
+  margin-left: .2em;
+  margin-right: .2em;
+    -webkit-box-shadow: 1px 1px 1px 1px #0f380c;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:     1px 1px 1px 1px #0f380c;  /* Firefox 3.5 - 3.6 */
+  box-shadow:          1px 1px 1px 1px #0f380c;
+}
+#equals{
+  height:3em;
+}
+#zero{
+  width:40%;
+}
+#decimal{
+width: 40%;
+}
